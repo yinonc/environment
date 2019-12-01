@@ -1,0 +1,13 @@
+.proposal-item {
+  width: 600px;
+  height: 200px;
+  border: 1px solid #000000;
+  border-radius: 20px;
+
+  .image-item {
+    width: 100px;
+    height: 100px;
+    float: left;
+    margin-top: 20px;
+  }
+}

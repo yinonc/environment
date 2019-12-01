@@ -1,5 +1,8 @@
 import React from 'react'
-import './app.scss'
+import './scss/app.scss'
+import Header from './header'
+import Main from './main'
+import Footer from './footer'
 
 class App extends React.Component {
 	constructor(props) {
@@ -8,8 +11,10 @@ class App extends React.Component {
 
 	render() {
 		return (
-			<div className="whole-app">
-				<span>Environment App</span>
+			<div>
+				<Header />
+				<Main />
+				<Footer />
 			</div>
 		)
 	}

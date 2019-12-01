@@ -1,0 +1,15 @@
+.header {
+  background-color: #CCCCCC;
+
+  .items-wrapper {
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    max-width: 800px;
+  }
+
+  .menu-item {
+    color: #000000;
+    text-decoration: none;
+  }
+}
