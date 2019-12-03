@@ -2,11 +2,14 @@ import React from 'react'
 import './scss/main.scss'
 import ProposalItem from './proposalItem'
 
+
+
 const arrayOfProposalItems = [
 	{
 		id: 1,
 		address: 'Modi\'in',
-		imageBefore: 'http://2.bp.blogspot.com/-vvkTGLHsYfY/TzPt2ge0QgI/AAAAAAAAAAc/0ctgovQTrDQ/s1600/20120209_162424%5B2%5D.jpg',
+		imageBefore:
+      'http://2.bp.blogspot.com/-vvkTGLHsYfY/TzPt2ge0QgI/AAAAAAAAAAc/0ctgovQTrDQ/s1600/20120209_162424%5B2%5D.jpg',
 		imageAfter: '1.jpg',
 		resolved: true,
 		topic: 'first topic',
@@ -19,7 +22,8 @@ const arrayOfProposalItems = [
 	{
 		id: 4,
 		address: 'Zichron Yaakov',
-		imageBefore: 'https://www.raanana.muni.il/Environment/DirectRegistration/PublishingImages/Environmentalhazards.jpg',
+		imageBefore:
+      'https://www.raanana.muni.il/Environment/DirectRegistration/PublishingImages/Environmentalhazards.jpg',
 		imageAfter: null,
 		resolved: false,
 		topic: 'second topic',
