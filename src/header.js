@@ -1,8 +1,6 @@
 import React from 'react'
 import './scss/header.scss'
 
-const headerMap = ['My Environment', 'Profile', 'Settings', 'About', 'Contact']
-
 class Header extends React.Component {
 	constructor(props) {
 		super(props)
@@ -12,12 +10,14 @@ class Header extends React.Component {
 		return (
 			<div className="header">
 				<div className="items-wrapper">
-					{headerMap.map((item, index) => (
-						<a className="menu-item"
+					{this.props.headerMap.map((item, index) => (
+						<a
+							className="menu-item"
+							onClick={() => this.props.onItemClick(item.name)}
 							key={`item_${index}`}
 							href={'#'}
 						>
-							{item}
+							{item.name}
 						</a>
 					))}
 				</div>
