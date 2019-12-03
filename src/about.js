@@ -1,16 +1,16 @@
-import React, { Component } from 'react';
+import React, { Component } from 'react'
 
 class About extends Component {
-    constructor(props) {
+	constructor(props) {
 		super(props)
 	}
-    render() { 
-        return (
+	render() { 
+		return (
 			<div className="about">
 				<h1>About the environment motherfuckerts!!</h1>
 			</div>
 		)
-    }
+	}
 }
  
-export default About;
+export default About
