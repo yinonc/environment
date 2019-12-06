@@ -5,6 +5,8 @@ import Main from './main'
 import Footer from './footer'
 import Contact from './contact'
 import About from './about'
+import Settings from './settings'
+import Profile from './profile'
 
 const headerMap = [
 	{ name: 'My Environment' },
@@ -30,17 +32,19 @@ class App extends React.Component {
 		switch (tabName) {
 		case 'My Environment':
 			return <Main />
-			// case "Profile":
 
-			// break;
+		case "Profile":
+			return <Profile />
+
 		case 'About':
 			return <About />
-			// break;
-			// case "Setting:
 
-			// break;
+		case 'Setting':
+			return <Settings />
+			
 		case 'Contact':
 			return <Contact />
+			
 		default:
 			return <Main />
 		}
